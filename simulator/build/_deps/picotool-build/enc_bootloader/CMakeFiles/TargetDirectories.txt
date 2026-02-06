@@ -1,0 +1,2 @@
+C:/Users/Yogaratchagan/backup/projects/pico/health_monitor/simulator/build/_deps/picotool-build/enc_bootloader/CMakeFiles/edit_cache.dir
+C:/Users/Yogaratchagan/backup/projects/pico/health_monitor/simulator/build/_deps/picotool-build/enc_bootloader/CMakeFiles/rebuild_cache.dir

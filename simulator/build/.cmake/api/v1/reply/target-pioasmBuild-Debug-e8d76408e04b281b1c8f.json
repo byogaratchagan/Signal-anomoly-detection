@@ -1,0 +1,161 @@
+{
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ExternalProject_Add",
+			"find_package",
+			"pico_init_pioasm",
+			"pico_generate_pio_header"
+		],
+		"files" : 
+		[
+			"C:/Program Files/CMake/share/cmake-3.29/Modules/ExternalProject.cmake",
+			"C:/Users/Yogaratchagan/backup/projects/pico/pico-sdk/tools/Findpioasm.cmake",
+			"C:/Users/Yogaratchagan/backup/projects/pico/pico-sdk/tools/CMakeLists.txt",
+			"C:/Users/Yogaratchagan/backup/projects/pico/pico-sdk/src/rp2_common/pico_status_led/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 224,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 121,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4228,
+				"parent" : 5
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "ExternalProjectTargets/pioasmBuild"
+	},
+	"id" : "pioasmBuild::@c2e5f126dae27421b95b",
+	"name" : "pioasmBuild",
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/rp2_common/pico_status_led",
+		"source" : "C:/Users/Yogaratchagan/backup/projects/pico/pico-sdk/src/rp2_common/pico_status_led"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild-complete.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

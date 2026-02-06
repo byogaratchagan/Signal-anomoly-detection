@@ -1,0 +1,36 @@
+.program shift_reg
+.side_set 1 
+
+.wrap_target
+    set pins, 1 side 1
+    set x, 7 side 1
+    set pins, 0 side 1
+    set pins, 1 side 1
+    data_loop: 
+    ; nop side 0
+    in pins, 1 side 0
+    jmp x-- data_loop side 1
+    push block side 0
+.wrap
+
+% c-sdk {
+    void shift_reg_init(PIO pio, uint sm, uint offset, uint data, uint clk, uint latch, float div){
+        pio_sm_config c = shift_reg_program_get_default_config(offset);
+
+        pio_gpio_init(pio, clk);
+        pio_gpio_init(pio, latch);
+        pio_gpio_init(pio, data);
+
+        sm_config_set_set_pins(&c, latch, 1);
+        sm_config_set_in_pins(&c, data); 
+        sm_config_set_sideset_pins(&c, clk);
+
+        sm_config_set_in_shift(&c, false, false, 8);
+        pio_sm_set_consecutive_pindirs(pio, sm, data, 1, false);
+        pio_sm_set_consecutive_pindirs(pio, sm, clk, 1, true);
+        pio_sm_set_consecutive_pindirs(pio, sm, latch, 1, true);
+
+        sm_config_set_clkdiv(&c, div);
+        pio_sm_init(pio, sm, offset, &c);
+    }
+%}

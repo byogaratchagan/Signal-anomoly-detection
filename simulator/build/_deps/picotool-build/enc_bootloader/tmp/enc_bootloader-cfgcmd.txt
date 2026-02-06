@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MAKE_PROGRAM:FILEPATH=nmake;-DPICO_SDK_PATH:FILEPATH=C:/Users/Yogaratchagan/backup/projects/pico/pico-sdk;-DUSE_PRECOMPILED:BOOL=true;-DUSE_MBEDTLS=0;-DPICO_DEBUG_INFO_IN_RELEASE=OFF;-GNMake Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

@@ -1,0 +1,6 @@
+C:/Users/Yogaratchagan/backup/projects/pico/health_monitor/simulator/build/_deps/picotool/picotool.exe
+C:/Users/Yogaratchagan/backup/projects/pico/health_monitor/simulator/build/_deps/picotool/picotoolTargets.cmake
+C:/Users/Yogaratchagan/backup/projects/pico/health_monitor/simulator/build/_deps/picotool/picotoolTargets-debug.cmake
+C:/Users/Yogaratchagan/backup/projects/pico/health_monitor/simulator/build/_deps/picotool/picotoolConfig.cmake
+C:/Users/Yogaratchagan/backup/projects/pico/health_monitor/simulator/build/_deps/picotool/picotoolConfigVersion.cmake
+C:/Users/Yogaratchagan/backup/projects/pico/health_monitor/simulator/build/_deps/picotool/enc_bootloader.elf
